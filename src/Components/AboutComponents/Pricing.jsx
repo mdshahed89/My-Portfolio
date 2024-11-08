@@ -26,23 +26,23 @@ function Pricing() {
             <div className=" text-[1.3rem] flex flex-col gap-3 px-3 ">
               <div className=" flex items-center gap-2 ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Affordable rate for small projects</p>
+                <p className=" line-clamp-1 ">Affordable rate for small projects</p>
               </div>
               <div className=" flex items-center gap-2 ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Access all essential features</p>
+                <p className=" line-clamp-1 ">Access all essential features</p>
               </div>
               <div className=" flex items-center gap-2 ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Transparent pricing, no hidden fees</p>
+                <p className=" line-clamp-1 ">Transparent pricing, no hidden fees</p>
               </div>
               <div className=" flex items-center gap-2 ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Customize to fit needs</p>
+                <p className=" line-clamp-1 ">Customize to fit needs</p>
               </div>
               <div className=" flex items-center gap-2 ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Dedicated support for success</p>
+                <p className=" line-clamp-1 ">Dedicated support for success</p>
               </div>
             </div>
             <Link to={"https://wa.me/+8801540362968"} target="_blank" className=" text-center hover:bg-[#fff] text-[1.4rem] font-semibold py-3 border-t border-[#d1d1d1] w-full ">
@@ -65,25 +65,25 @@ function Pricing() {
 
             <div className=" h-[1px] my-[1.5rem] bg-[#d1d1d1] w-full "></div>
             <div className=" text-[1.3rem] flex flex-col gap-3 px-3 ">
-              <div className=" flex items-center gap-2 ">
+              <div className=" flex items-center gap-2  ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Ideal for businesses, larger teams</p>
+                <p className=" line-clamp-1 ">Ideal for businesses, larger teams</p>
               </div>
-              <div className=" flex items-center gap-2 ">
+              <div className=" flex items-center gap-2  ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Advanced features and tools included</p>
+                <p className=" line-clamp-1 ">Advanced features and tools included</p>
               </div>
-              <div className=" flex items-center gap-2 ">
+              <div className=" flex items-center gap-2  ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Easily scale as needed</p>
+                <p className=" line-clamp-1 ">Easily scale as needed</p>
               </div>
-              <div className=" flex items-center gap-2 ">
+              <div className=" flex items-center gap-2  ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Enhance productivity with collaboration</p>
+                <p className=" line-clamp-1 ">Enhance productivity with collaboration</p>
               </div>
-              <div className=" flex items-center gap-2 ">
+              <div className=" flex items-center gap-2  ">
                 <FaCheck className=" text-[#0E46A3] " />
-                <p>Priority support for smooth projects</p>
+                <p className=" line-clamp-1 ">Priority support for smooth projects</p>
               </div>
             </div>
             <Link to={"https://wa.me/+8801540362968"} target="_blank" className="hover:bg-[#fff] text-center text-[1.4rem] font-semibold py-3 border-t border-[#d1d1d1] w-full ">
