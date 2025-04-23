@@ -14,8 +14,8 @@ function Profile() {
         <div className="w-[80%] h-[100%] md:h-[90%] md:mb-0 mb-[3rem] border rounded-md border-[#d1d1d1] flex flex-col justify-between ">
 
           <div className=" flex flex-col gap-5 ">
-          <div className=" mt-[3%] lg:mt-[5%] ">
-            <img src={MyImage} className=" w-[23rem] md:w-[27rem] lg:w-[90%] mx-auto object-cover px-3 " alt="" />
+          <div className=" mt-[3%] lg:mt-[5%] px-3 ">
+            <img src={MyImage} className=" w-[23rem] md:w-[27rem] lg:w-[90%] mx-auto object-cover rounded-md " alt="" />
           </div>
           <div>
           <h3 className=" text-center text-[1.8rem] font-semibold ">Md Shahed</h3>

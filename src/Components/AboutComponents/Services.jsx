@@ -14,7 +14,7 @@ function Services() {
 
       <div className=" flex sm:flex-row flex-col  px-[3%]">
         <div className=" pt-[3%] pr-[3%] border-r flex flex-col gap-7  ">
-          <div className=" bg-[#E1E1E1]/70 p-[6%] flex  flex-col gap-3 rounded-lg border border-[#d1d1d1] ">
+          <div className=" bg-[#E6EAEE]/70 p-[6%] flex  flex-col gap-3 rounded-lg border border-[#d1d1d1] ">
             <div className="  ">
               <SiWebmoney className=" text-[3.5rem] text-[#0E46A3] rounded-full bg-[#0E46A3]/10 p-3 " />
             </div>
@@ -26,7 +26,7 @@ function Services() {
             Create dynamic, responsive websites that enhance user experience and ensure optimal performance across all devices.
             </p>
           </div>
-          <div className=" bg-[#E1E1E1]/70 p-[6%] flex  flex-col gap-3 rounded-lg border border-[#d1d1d1]">
+          <div className=" bg-[#E6EAEE]/70 p-[6%] flex  flex-col gap-3 rounded-lg border border-[#d1d1d1]">
             <div className="  ">
               <IoLogoDesignernews className=" text-[3.5rem] text-[#0E46A3] rounded-full bg-[#0E46A3]/10 p-3 " />
             </div>
@@ -40,7 +40,7 @@ function Services() {
           </div>
         </div>
         <div className=" pt-[3%] pl-[3%] flex flex-col gap-7 ">
-          <div className=" bg-[#E1E1E1]/70 p-[6%] flex  flex-col gap-3 rounded-lg border border-[#d1d1d1]">
+          <div className=" bg-[#E6EAEE]/70 p-[6%] flex  flex-col gap-3 rounded-lg border border-[#d1d1d1]">
             <div className="  ">
               <GrApps className=" text-[3.5rem] text-[#0E46A3] rounded-full bg-[#0E46A3]/10 p-3 " />
             </div>
@@ -52,7 +52,7 @@ function Services() {
             Develop intuitive, scalable mobile apps for iOS and Android, offering end-to-end solutions from concept to deployment.
             </p>
           </div>
-          <div className=" bg-[#E1E1E1]/70 p-[6%] flex  flex-col gap-3 rounded-lg border border-[#d1d1d1]">
+          <div className=" bg-[#E6EAEE]/70 p-[6%] flex  flex-col gap-3 rounded-lg border border-[#d1d1d1]">
             <div className="  ">
               <SiBlockchaindotcom className=" text-[3.5rem] text-[#0E46A3] rounded-full bg-[#0E46A3]/10 p-3 " />
             </div>

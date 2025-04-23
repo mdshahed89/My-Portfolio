@@ -4,7 +4,7 @@ import Client1 from "../../assets/Client1.png";
 
 function WorkExperienceCard({time, name, title, img, details}) {
   return (
-    <div className=" bg-[#EDEDED]/80 p-[3%] border rounded-lg ">
+    <div className=" bg-[#E6EAEE] p-[3%] border rounded-lg ">
       <div className=" flex mb-5 ">
         <h3 className=" border border-[#0E46A3] rounded px-3 ">{time}</h3>
       </div>

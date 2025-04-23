@@ -18,7 +18,7 @@ function Pricing() {
               </span>
             </h3>
           </div>
-          <div className=" bg-[#EDEDED]/70 priceShape rounded-md border border-[#d1d1d1] flex flex-col items-center gap-5  ">
+          <div className=" bg-[#E6EAEE]/70 priceShape rounded-md border border-[#d1d1d1] flex flex-col items-center gap-5  ">
             <div className=" mt-[20%] text-[1.8rem]  ">
               <span className=" text-[#0E46A3] ">10$</span>/ Hour
             </div>
@@ -58,7 +58,7 @@ function Pricing() {
               </span>
             </h3>
           </div>
-          <div className=" bg-[#EDEDED]/50 rounded-md priceShape border border-[#d1d1d1] flex flex-col items-center gap-5 ">
+          <div className=" bg-[#E6EAEE]/50 rounded-md priceShape border border-[#d1d1d1] flex flex-col items-center gap-5 ">
             <div className=" mt-[20%] text-[1.8rem]  ">
               <span className=" text-[#0E46A3] ">25$</span>/ Hour
             </div>

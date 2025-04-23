@@ -5,7 +5,7 @@ import { GrLike } from "react-icons/gr";
 
 function Blog({time, title, details, react, img}) {
   return (
-    <div className=" border rounded-md relative bg-[#EDEDED] ">
+    <div className=" border rounded-md relative bg-[#E6EAEE]/40 ">
       <div className=" -z-10 ">
         <img
           src={img}

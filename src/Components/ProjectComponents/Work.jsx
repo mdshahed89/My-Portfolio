@@ -7,7 +7,7 @@ function Work({img, title, link}) {
   return (
     <div className=' group bg-[#EDEDED]/50 rounded-lg transition-all duration-300 ease-in-out '>
         <div className=' group-hover:border-[#a8bbda] border rounded-lg p-3 '>
-            <img src={img} alt="" className=' h-auto max-h-[25rem] w-full object-cover rounded-lg ' />
+            <img src={img} alt="" className=' h-auto max-h-[25rem] w-full object-cover object-top rounded-lg ' />
         </div>
         <div className=' px-3 py-[3%] flex justify-between items-center '>
             <div className=' flex flex-col gap-2 '>

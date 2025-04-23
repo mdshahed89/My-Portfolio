@@ -4,6 +4,8 @@ import Client2 from "../../assets/Client2.png"
 import abmlogo from "../../assets/abmlogo.png"
 import Client3 from "../../assets/Client3.png"
 import Client4 from "../../assets/Client4.png"
+import Client5 from "../../assets/Client5.png"
+import Client6 from "../../assets/Client6.png"
 import Marquee from "react-fast-marquee";
 
 function Clients() {
@@ -15,7 +17,7 @@ function Clients() {
       </h3>
 
         <div>
-            <Marquee autoFill={true} className=" bg-[#000]/10 flex py-3 ">
+            <Marquee autoFill={true} className=" bg-[#d7e1ec] flex py-3 ">
               <div>
                 <img src={Client1} className=" w-[10rem] object-cover mx-8  " alt="" />
               </div>
@@ -27,6 +29,12 @@ function Clients() {
               </div>
               <div>
                 <img src={Client4} className=" w-[10rem] object-cover mx-8  " alt="" />
+              </div>
+              <div>
+                <img src={Client5} className=" w-[10rem] object-cover mx-8  " alt="" />
+              </div>
+              <div>
+                <img src={Client6} className=" w-[10rem] object-cover mx-8  " alt="" />
               </div>
             </Marquee>
         </div>
