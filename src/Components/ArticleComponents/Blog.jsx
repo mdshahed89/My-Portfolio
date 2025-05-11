@@ -13,7 +13,7 @@ function Blog({time, title, details, react, img}) {
           className=" h-[20rem] object-cover w-full -z-10 "
         />
       </div>
-      <div className=" relative bg-[#ffffff] rounded-lg mx-[3%] mt-[-10%] pl-[3%] pr-[1%] py-[3%] z-[10000000000000] ">
+      <div className=" relative bg-[#ffffff] rounded-lg mx-[3%] mt-[-10%] pl-[3%] pr-[1%] py-[3%] z-[100] ">
         <div className=" flex items-center ">
           <h3 className=" text-[1.1rem] px-3 border rounded-md border-[#0E46A3]  ">{time}</h3>
         </div>

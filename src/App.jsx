@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Header from "./Components/Header/Header";
+import Header, { ResponsiveHeader } from "./Components/Header/Header";
 import About from "./Pages/About/About";
 import Profile from "./Pages/Profile/Profile";
 import Resume from "./Pages/Resume/Resume";
@@ -26,16 +26,14 @@ function App() {
 
       <main className=" lg:hidden block  ">
         <div className=" flex gap-2 px-2 h-screen">
-          <div className=" w-[15%] md:w-[10%]  ">
-            <Header />
-          </div>
-          <div className=" w-[85%] md:w-[90%] overflow-y-auto scrollbarHide  flex flex-col gap-5 rounded-md ">
-            <div className=" bg-[#E6EAEE] rounded-md  ">
+            <ResponsiveHeader />
+          <div className=" w-full overflow-y-auto scrollbarHide  flex flex-col gap-5 rounded-md ">
+            <section id="profile" className=" bg-[#E6EAEE] rounded-md pt-[6rem]  ">
               <Profile />
-            </div>
-            <div className=" bg-[#E6EAEE] rounded-md ">
+            </section>
+            <section id="about" className=" bg-[#E6EAEE] rounded-md ">
               <About />
-            </div>
+            </section>
             <div className=" bg-[#E6EAEE] rounded-md ">
               <Resume />
             </div>
